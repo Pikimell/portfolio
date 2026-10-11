@@ -1410,3 +1410,28 @@ h1 {
     animation: none !important;
   }
 }
+
+.visual-fluent {
+  background: #dce8e9;
+}
+.visual-fluent .lesson-bubble {
+  background: #416b70;
+}
+.visual-fluent .lesson-card {
+  background: #f4fcfa;
+}
+.visual-fluent .lesson-progress {
+  background: #d9e8e4;
+}
+.visual-fluent .lesson-progress span {
+  background: #63928c;
+}
+.visual-fluent .lesson-symbol {
+  color: #416b70;
+}
+@media (min-width: 761px) {
+  .case-study > .visual-fluent .lesson-card {
+    transform: scale(1.4) rotate(-4deg);
+    top: 125px;
+  }
+}

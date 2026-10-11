@@ -18,6 +18,32 @@ export interface Project {
 }
 export const projects: Project[] = [
   {
+    slug: "english-for-everyone",
+    name: "English for Everyone",
+    category: "Full-stack",
+    eyebrow: "Your materials. Your learning path.",
+    description:
+      "FluentPath turns English textbooks and PDFs into personal learning routes, with notes, annotations, and visible progress.",
+    stack: ["Next.js", "TypeScript", "Supabase", "Zustand", "PDF.js"],
+    private: true,
+    color: "fluent",
+    demo: "https://english-for-everyone.vercel.app",
+    problem:
+      "English learners often have plenty of materials but no clear sequence to follow. Textbook topics, lesson notes, PDF practice, and progress need to fit into one daily workflow.",
+    approach:
+      "A Next.js application organizes book topics into courses and lessons. Zustand manages persisted learning state, while Supabase authentication and data services support account-based course plans, notes, annotations, and progress. PDF.js powers the reading workspace.",
+    features: [
+      "Course and lesson planning from textbook topics",
+      "PDF reading with pen, highlighter, eraser, and lesson notes",
+      "Topic completion and review statuses with persisted learning state",
+      "Guest use, account synchronization, and teacher-facing student workflows",
+    ],
+    notes:
+      "The public product is branded FluentPath; english-for-everyone is the repository name. Source code remains private. Guest data is stored locally; account synchronization and teacher tools require the appropriate access. The public landing page was checked; authenticated workflows were not independently tested for this portfolio.",
+    focus: "Learning workflows · PDF interaction · Persistent state",
+  },
+
+  {
     slug: "bookleap",
     name: "Bookleap",
     category: "Full-stack",

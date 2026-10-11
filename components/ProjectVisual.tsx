@@ -8,7 +8,23 @@ export function ProjectVisual({ project }: { project: Project }) {
       aria-hidden="true"
     >
       <span className="visual-index">{project.eyebrow}</span>
-      {project.color === "book" ? (
+      {project.color === "fluent" ? (
+        <div className="lesson-scene">
+          <span className="lesson-bubble">FluentPath</span>
+          <div className="lesson-card">
+            <small>YOUR PERSONAL LEARNING ROUTE</small>
+            <strong>
+              Your materials.
+              <br />A clearer path.
+            </strong>
+            <div className="lesson-progress">
+              <span />
+            </div>
+            <span className="lesson-answer">PDF · NOTES · PROGRESS</span>
+          </div>
+          <span className="lesson-symbol">↗</span>
+        </div>
+      ) : project.color === "book" ? (
         <div className="book-scene">
           <div className="book-cover">
             <span>
