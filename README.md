@@ -14,7 +14,7 @@ I build web applications, backend services, and tools that turn complex workflow
 
 ## Portfolio website
 
-This repository includes a responsive Next.js website with project filters, eight project detail pages, and contact links. The project artwork is illustrative, not a screenshot of the products.
+This repository includes a responsive dark-themed Next.js landing page: hero, featured case studies with real product screenshots, a filterable grid of 16 projects (live products, open-source repositories, and private work described without screenshots), skills, experience, and contacts. Each project has its own case-study page.
 
 ### Run locally
 
@@ -25,7 +25,7 @@ npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:3000. The homepage is in `app/page.tsx`; edit project descriptions, links, and technologies in `lib/projects.ts`. Styling lives in `app/globals.css`.
+Open http://127.0.0.1:3000. The homepage is in `app/page.tsx`; edit project descriptions, links, technologies, and screenshots in `lib/projects.ts`. Screenshots live in `public/projects/`; projects without an `image` get a generated typographic cover. Styling lives in `app/globals.css`.
 
 ### Checks
 

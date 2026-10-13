@@ -11,8 +11,8 @@ export default function Image() {
         justifyContent: "space-between",
         width: "100%",
         height: "100%",
-        background: "#f6f5ef",
-        color: "#242c28",
+        background: "#0a0b0d",
+        color: "#eceef1",
         padding: 70,
         fontFamily: "sans-serif",
       }}
@@ -24,15 +24,15 @@ export default function Image() {
           alignItems: "center",
         }}
       >
-        <span style={{ fontSize: 64, fontWeight: 700 }}>vp.</span>
+        <span style={{ fontSize: 64, fontWeight: 700, color: "#c8ef87" }}>VP</span>
         <span style={{ fontSize: 19 }}>Volodymyr Pashchenko</span>
       </div>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <span style={{ fontSize: 66, letterSpacing: -3 }}>
-          Thoughtful interfaces.
+          I build products end to end —
         </span>
-        <span style={{ fontSize: 66, letterSpacing: -3, color: "#77806f" }}>
-          Connected systems.
+        <span style={{ fontSize: 66, letterSpacing: -3, color: "#c8ef87" }}>
+          from interface to infrastructure.
         </span>
       </div>
       <div
@@ -43,7 +43,7 @@ export default function Image() {
         }}
       >
         <span>Full-stack Developer</span>
-        <span>React · Next.js · Node.js · AWS</span>
+        <span>React · Next.js · Node.js · AWS · iOS</span>
       </div>
     </div>,
     size,
