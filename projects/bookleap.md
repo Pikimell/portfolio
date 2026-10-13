@@ -2,7 +2,7 @@
 
 **Reading product · Private source**
 
-Bookleap brings a personal book library, reading sessions, notes, and account functionality into one product. Its repository set includes iOS and Android clients, a public Next.js site, and a dedicated backend.
+Bookleap brings a personal book library, reading sessions, notes, and account functionality into one product. It consists of a Node.js backend, a public Next.js site, and mobile clients.
 
 ## Implementation
 

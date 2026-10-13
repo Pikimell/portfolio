@@ -2,4 +2,5 @@
 (2026-10-11) - Оновили GitHub pins: portfolio, google-play-console-connector, wave-studio, quick-mockups, aws-node-express-template, camp-planner (chore: update GitHub profile pins)
 (2026-10-11) - Додали адаптивний сайт Next.js із фільтрами, сторінками семи проєктів і контактами (feat: add Next.js portfolio website)
 (2026-10-11) - Додали English for Everyone (FluentPath) на сайт і в опис портфоліо (feat: add English for Everyone portfolio project)
+(2026-10-13) - Оновили README: опис проєкту, стек, архітектура та запуск англійською для роботодавців (docs: rewrite README for portfolio presentation)
 (2026-10-13) - Переробили сайт у темний лендинг: hero, вибрані кейси зі скріншотами, фільтрована сітка з 16 проєктів (додано проєкти з GitHub), навички, досвід і контакти (feat: redesign portfolio as landing page)
