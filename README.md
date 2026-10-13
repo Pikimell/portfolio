@@ -14,7 +14,7 @@ I build web applications, backend services, and tools that turn complex workflow
 
 ## Portfolio website
 
-This repository includes a responsive Next.js website with project filters, eight project detail pages, and contact links. The project artwork is illustrative, not a screenshot of the products.
+This repository contains my portfolio website: a responsive Next.js app with project filters, case-study pages, Open Graph images, and contact links. Project content lives in typed data (`lib/projects.ts`) and Markdown case studies (`projects/`).
 
 ### Run locally
 
@@ -34,13 +34,9 @@ npm run lint
 npm run typecheck
 ```
 
-These checks do not run a production build. A development preview does not verify production deployment.
-
-The production dependency audit is clean. The current Next.js ESLint tooling has an unresolved transitive `braces` advisory in development dependencies; no patched `braces` release was available when the site was added.
-
 ### Deploy
 
-Import this repository into Vercel and select Next.js. No API keys or other environment variables are required. Deployment runs the production build on the hosting provider; a public portfolio URL has not been configured yet.
+Import this repository into Vercel and select Next.js. No API keys or environment variables are required.
 
 ## Selected work
 
@@ -58,6 +54,9 @@ Import this repository into Vercel and select Next.js. No API keys or other envi
 
 - **[App Store Connector](projects/app-store-connector.md)** — App Store Connect and OpenAI integration for localization workflows. [Visit](https://app-store-connector.vercel.app).
 - **[Camp Planner](https://github.com/Pikimell/camp-planner)** — Next.js and Zustand application for organizing trip participants, meals, duties, and food distribution. [Demo](https://camp-planner-eight.vercel.app).
+- **[Dnipro Slay API](https://github.com/Pikimell/dnipro-slay-api)**: city events backend with a scheduled scraper on AWS Lambda and OpenAI-based event normalization.
+- **[Time Capsule API](https://github.com/Pikimell/time-capsule-api)**: geo-tagged time capsules with cookie-based auth, a geo radius search in MongoDB aggregation, and Vitest tests.
+- **[CampChords Web](https://github.com/Pikimell/camp-chords-web)**: local-first songbook with chord transposition, a Web Audio tuner, and validated JSON import/export.
 - **[AWS Node Express Template](https://github.com/Pikimell/aws-node-express-template)** — TypeScript API starter with authentication, refresh-token sessions, validation, OpenAPI documentation, and AWS Lambda configuration.
 
 ## Technical toolkit
@@ -66,9 +65,8 @@ Import this repository into Vercel and select Next.js. No API keys or other envi
 | :---------------------------- | :------------------------------------------------------------- |
 | Frontend                      | React, Next.js, TypeScript, JavaScript, Zustand                |
 | Backend                       | Node.js, Express, REST APIs, MongoDB, Mongoose                 |
-| Infrastructure & integrations | AWS Lambda, Serverless Framework, Apple and Google APIs, OAuth |
+| Infrastructure & integrations | AWS Lambda, Serverless Framework, Google & Apple APIs, OAuth   |
 | Interactive tools             | SVG, Three.js, browser storage, file import and export         |
-| Mobile                        | Swift / SwiftUI, React Native / Expo                           |
 
 ## How I work
 
@@ -79,8 +77,6 @@ I aim to keep domain logic separate from UI components, make integration limits 
 ## About private projects
 
 Some projects have private source repositories. This portfolio shares their functionality and technical approach without publishing their implementation or user data. Public product links are provided where available; some workflows require an account or service credentials.
-
-The overview pages describe implementation scope, not guarantees about uptime, performance, or production usage. Source licenses remain those of their respective repositories.
 
 ## Let's talk
 
